@@ -6,7 +6,7 @@ fluidPage(
   br(),
   sidebarLayout(
     sidebarPanel(
-      textInput("myText1", "Enter some text here:"),
+      textInput("myText1", "Secret Sister Code here:"),
       actionButton("createNewData", "Simulate new data for 2nd bar plot")
     ),
     mainPanel(
