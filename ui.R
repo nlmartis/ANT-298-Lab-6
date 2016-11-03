@@ -1,5 +1,9 @@
 fluidPage(
-  titlePanel("Hi everyone!"),
+  includeMarkdown("Title.Rmd"),
+  titlePanel("",windowTitle="my App"),
+  br(),
+  br(),
+  br(),
   sidebarLayout(
     sidebarPanel(
       textInput("myText1", "Enter some text here:"),
